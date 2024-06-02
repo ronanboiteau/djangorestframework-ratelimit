@@ -20,7 +20,7 @@ runs:
       python -m pip install --upgrade pip
       if [[ ${{ inputs.django-version }} != 'main' ]]; then pip install --pre -q "Django>=${{ inputs.django-version }},<${{ inputs.django-version }}.99"; fi
       if [[ ${{ inputs.django-version }} == 'main' ]]; then pip install https://github.com/django/django/archive/main.tar.gz; fi
-      pip install flake8 django-redis pymemcache
+      pip install flake8 django-redis pymemcache djangorestframework
 
   - name: Test
     shell: sh
