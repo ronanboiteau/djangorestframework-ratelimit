@@ -1,6 +1,7 @@
 # Changelog
 
-## 1.0.0 - 2024-06-02
+## 1.0.0 - Unreleased
 
-- Fork [django-ratelimit](https://github.com/jsocol/django-ratelimit)
+This version includes [django-ratelimit](https://github.com/jsocol/django-ratelimit) v4.1.0
+
 - Fix duplicated option issue in `tox.ini`
