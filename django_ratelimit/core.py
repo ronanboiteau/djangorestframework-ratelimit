@@ -1,3 +1,6 @@
+# NOTE: This file originally from django-ratelimit has been edited
+# to add support for Django REST Framework's `Request.data`
+
 import ipaddress
 import functools
 import hashlib
@@ -81,6 +84,7 @@ def get_header(request, header):
 _ACCESSOR_KEYS = {
     'get': lambda r, k: r.GET.get(k, ''),
     'post': lambda r, k: r.POST.get(k, ''),
+    'data': lambda r, k: r.data.get(k, ''),
     'header': get_header,
 }
 
