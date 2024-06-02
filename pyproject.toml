@@ -38,7 +38,7 @@ classifiers = [
 Documentation = "https://github.com/ronanboiteau/djangorestframework-ratelimit/blob/main/README.md"
 Repository = "https://github.com/ronanboiteau/djangorestframework-ratelimit.git"
 Issues = "https://github.com/ronanboiteau/djangorestframework-ratelimit/issues"
-Changelog = "https://github.com/ronanboiteau/djangorestframework-ratelimit/blob/main/CHANGELOG"
+Changelog = "https://github.com/ronanboiteau/djangorestframework-ratelimit/blob/main/CHANGELOG.md"
 
 [build-system]
 requires = ["setuptools>=61.2"]
