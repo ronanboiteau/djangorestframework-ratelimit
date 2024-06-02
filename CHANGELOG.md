@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 - Unreleased
+## 1.0.0 - 2024-06-03
 
 This version includes [django-ratelimit](https://github.com/jsocol/django-ratelimit) v4.1.0
 
