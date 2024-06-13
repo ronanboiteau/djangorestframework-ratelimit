@@ -1,16 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.2"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "djangorestframework-ratelimit"
 version = "1.0.0"
-dependencies = ["django >= 3.2"]
 authors = [
     {name = "James Socol", email = "me@jamessocol.com"},
     {name = "Ronan Boiteau", email = "ronan@boiteau.eu"},
 ]
 maintainers = [{ name = "Ronan Boiteau", email = "ronan@boiteau.eu" }]
 requires-python = ">= 3.7"
+dependencies = ["django >= 3.2"]
+keywords = ["django", "rest", "framework", "ratelimit", "rate", "limit"]
 license = {file = "LICENSE"}
 description = "Cache-based rate-limiting for Django and Django REST Framework"
-keywords = ["django", "rest", "framework", "ratelimit", "rate", "limit"]
 readme = "README.md"
 classifiers = [
     "Development Status :: 5 - Production/Stable",
@@ -38,10 +42,6 @@ Documentation = "https://github.com/ronanboiteau/djangorestframework-ratelimit/b
 Repository = "https://github.com/ronanboiteau/djangorestframework-ratelimit.git"
 Issues = "https://github.com/ronanboiteau/djangorestframework-ratelimit/issues"
 Changelog = "https://github.com/ronanboiteau/djangorestframework-ratelimit/blob/main/CHANGELOG.md"
-
-[build-system]
-requires = ["setuptools>=61.2"]
-build-backend = "setuptools.build_meta"
 
 [tool.distutils.bdist_wheel]
 universal = 1
